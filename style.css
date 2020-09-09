@@ -20,11 +20,55 @@ body {
 }
 
 body .box {
-  width: 60vw;
+  width: 400px;
   height: 70vh;
   background: #f7f7f7;
   border-radius: 15px;
-  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #04ABB0;
+}
+
+body .box h1 {
+  font-size: 36px;
+  margin: 30px auto;
+}
+
+body .box .main {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+body .box .main .angka1,
+body .box .main .kali,
+body .box .main .angka2 {
+  float: left;
+  margin: 0 20px;
+  width: 22%;
+  color: #737473;
+}
+
+body .box .hasil {
+  font-size: 30px;
+  margin: 20px;
+  color: #737473;
+}
+
+body .box #hasil {
+  border: none;
+  background: #ECF0EF;
+  width: 40%;
+  font-size: 24px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+body .box table {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 30px;
 }
 /*# sourceMappingURL=style.css.map */

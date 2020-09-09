@@ -1,6 +1,10 @@
 $background:linear-gradient( #04ABB0, #04CCAC);
+$color:#04ABB0;
+$text:#737473;
+$input-form:#ECF0EF;
 $width:100vw;
 $height:100vh;
+
 *{
     margin: 0;
     padding: 0;
@@ -15,10 +19,54 @@ body{
     justify-content: center;
 
     .box{
-        width: 60vw;
+        width: 400px;
         height: 70vh;
         background: #f7f7f7;
         border-radius: 15px;
-        box-shadow: 0px 0px 30px rgba($color: #000000, $alpha: 0.4);
+        box-shadow: 0px 0px 30px rgba($color: #000000, $alpha: 0.7);
+        text-align: center;
+        color: $color;
+
+        h1{
+            font-size: 36px;
+            margin: 30px auto;
+        }
+
+        .main{
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px;
+            
+            .angka1,
+            .kali,
+            .angka2{
+                float: left;
+                margin: 0 20px;
+                width: 22%;
+                color: $text;
+            }
+        }
+
+        .hasil{
+            font-size: 30px;
+            margin: 20px;
+            color: $text;
+        }
+
+        #hasil{
+            border: none;
+            background: $input-form;
+            width: 40%;
+            font-size: 24px;
+            padding: 5px 30px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        table{
+            width: 80%;
+            margin: 20px auto;
+            font-size: 30px;
+        }
     }
 }

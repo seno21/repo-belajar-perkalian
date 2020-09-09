@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Perkalian</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="box"></div>
+    <div class="box">
+        <h1>Mari Belajar Perkalian</h1>
+
+        <!-- Bagian Soal -->
+        <div class="main">
+            <div class="angka1">1</div>
+            <div class="kali">X</div>
+            <div class="angka2">2</div>
+        </div>
+
+        <!-- Input Jawaban -->
+        <div class="hasil">Masukkan hasil</div>
+        <input type="text" id="hasil" autofocus>
+
+        <!-- Tampilan Skor -->
+        <div class="skor">
+            <table>
+                <tr>
+                    <th>Benar</th>
+                    <th>Salah</th>
+                </tr>
+                <tr>
+                    <td class="skor-benar">0</td>
+                    <td class="skor-salah">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
